@@ -12,6 +12,7 @@ public class JerksonParser {
 
     public String parse() {
         OofList list = new OofList();
+
         Pattern p = Pattern.compile(
                 "(?i)name:(\\w+)" +
                 "\\Wprice:(\\w[.]\\w+)" +
